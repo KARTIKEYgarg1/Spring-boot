@@ -1,0 +1,37 @@
+Develop a Spring Boot application that manages College and Student data, considering a one-to- many association between College and Students. A College has a collegeld and name. A Student has an id, name, courseTaken, and marks. There are various colleges and none of the students can take admission to more than one college.
+Tasks:
+
+Model Implementation:
+1. Create a College entity with fields: collegeld (type Long), name (type String).
+2. Create a Student entity with fields: id (type Long), name (type String), courseTaken (type String), and marks (type int). 
+3. Implement a one-to-many association between College and Students.
+
+Repository Implementation:
+1. Implement a CollegeRepository interface that extends JpaRepository to manage the CRUD operations for the College entity.
+2. Implement a StudentRepository interface that extends JpaRepository to manage the CRUD operations for the Student entity.
+
+Service Implementation:
+Implement a service class named CollegeService that contains methods for the
+CollegeService that contains methods for the following operations:
+	1. createCollege (College college): Create a College object.
+	2. createStudent (Long collegeld, Student student): Create a Student object and assign them to a College. collegeld is passed as a path 	variable.
+	3. getAllColleges(): Fetch all the colleges and the corresponding students data. 4. getStudentsByCollegeName(String collegeName): Fetch 	all the students for a particular college based on their name in descending order.
+
+Controller Implementation:
+Implement a controller named CollegeController using the @RestController annotation. 
+Use the @Autowired annotation to inject the CollegeService instance into the controller.
+Map the operations to appropriate endpoints: 
+a. POST /colleges: Create a College object. 
+b. POST /colleges/(collegeld)/students: Create a Student object and assign them to a College. collegeld is passed as a path variable. 
+c. GET /colleges: Fetch all the colleges and the corresponding students data.
+d. GET /colleges/students?collegeName= (collegeName): Fetch all the students for a particular college based on their name in descending order.
+
+Test Cases:
+Your implementation will be evaluated against the following criteria:
+1. Create College: Sending a POST request to /colleges with a sample College JSON should save the College to the database and return the saved College object. 
+2. Create Student and Assign College:
+Sending a POST request to
+/colleges/{collegeld)/students with a sample Student JSON and collegeld
+should save the Student to the database,
+3. Retrieve all colleges and corresponding students/
+4. Retrieve students by collge name and sort in descending order
