@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean id="student" class="com.BASIC_1.Student"></bean>
+	<bean name="Employee" class="com.BASIC_2.Employee">
+		<property name="id">
+			<value>10</value>
+		</property>
+		<property name="name">
+			<value>KARTIKEY</value>
+		</property>
+		<property name="sal">
+			<value>4</value>
+		</property>
+	</bean>
+	<bean id="car" class="com.BASIC_5.Car">
+	<constructor-arg index="0" ref="engine" ></constructor-arg>
+	<constructor-arg index="1" ref="type" ></constructor-arg>
+	<constructor-arg index="2" value="SCORPIO" ></constructor-arg>
+	</bean>
+	<bean id="engine" class="com.BASIC_5.Engine">
+	<property name="type"><value>PETROL</value></property>
+	<property name="size"><value>MEDIUM</value></property>
+	</bean>
+	<bean id="type" class="com.BASIC_5.Type">
+	<property name="cartype"><value>RETRO</value></property>
+	<property name="time"><value>OLD</value></property></bean>
+</beans>
