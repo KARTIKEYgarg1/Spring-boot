@@ -6,13 +6,18 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Customer"/>
+		<item key="selection" value="sRepo"/>
 		<list key="findhistory">
+			<item value="studentRepository"/>
+			<item value="        return studentRepository.findByCollegeNameOrderByNameDesc(collegeName);"/>
+			<item value="collegeRepository"/>
 			<item value="Bank"/>
 			<item value="jdbc"/>
 			<item value="mysql"/>
 		</list>
 		<list key="replacehistory">
+			<item value="sRepo"/>
+			<item value="cRepo"/>
 			<item value="Customer"/>
 		</list>
 	</section>

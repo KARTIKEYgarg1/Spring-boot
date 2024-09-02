@@ -7631,3 +7631,15 @@ org.eclipse.core.runtime.CoreException: Launch configuration SpringWithMongoAppl
 2024-09-03 00:08:33,045 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-09-03 00:08:33,050 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-09-03 00:08:33,052 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\9616k\Documents\workspace-spring-tool-suite-4-4.24.0.RELEASE\SpringBootCollegeStudentAssesment\src\test\resources
+2024-09-03 00:09:36,823 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-03 00:09:36,827 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-03 00:09:36,830 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\9616k\Documents\workspace-spring-tool-suite-4-4.24.0.RELEASE\SpringBootCollegeStudentAssesment\src\test\resources
+2024-09-03 00:09:37,881 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-03 00:09:37,884 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-03 00:09:37,886 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\9616k\Documents\workspace-spring-tool-suite-4-4.24.0.RELEASE\SpringBootCollegeStudentAssesment\src\test\resources
+2024-09-03 00:09:48,020 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-03 00:09:48,024 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-03 00:09:48,026 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\9616k\Documents\workspace-spring-tool-suite-4-4.24.0.RELEASE\SpringBootCollegeStudentAssesment\src\test\resources
+2024-09-03 00:44:07,121 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-03 00:44:07,239 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-03 00:44:07,244 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\9616k\Documents\workspace-spring-tool-suite-4-4.24.0.RELEASE\SpringBootCollegeStudentAssesment\src\test\resources
