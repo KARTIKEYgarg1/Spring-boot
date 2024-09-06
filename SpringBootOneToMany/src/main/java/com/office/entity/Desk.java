@@ -1,6 +1,7 @@
 package com.office.entity;
 
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -8,6 +9,7 @@ import jakarta.persistence.Id;
 public class Desk {
 	@Id
 	public int deskno;
+	@Column(name="dept")
 	public String department;
 	
 	public Desk(int deskno,String dep) {

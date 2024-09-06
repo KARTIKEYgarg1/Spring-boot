@@ -7186,3 +7186,200 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-02 23:25:17.506
 !MESSAGE Boot project ADDED: SpringBootCollegeStudentAssesment
+!SESSION 2024-09-04 04:15:39.765 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-04 04:15:42.542
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-04 04:15:43.962
+!MESSAGE Logback config file: C:\Users\9616k\Documents\workspace-spring-tool-suite-4-4.24.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-04 04:15:44.660
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-04 04:15:44.660
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-04 04:15:45.023
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-04 04:15:45.023
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-04 04:15:49.507
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\9616k'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.722
+!MESSAGE Boot project ADDED: SpringBootCollegeStudentAssesment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.723
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.810
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.811
+!MESSAGE Boot project ADDED: SpringBootCustomerMySql
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.811
+!MESSAGE Boot project ADDED: SpringBootEmployeeMySql
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.812
+!MESSAGE Boot project ADDED: SpringBootGeneral
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.813
+!MESSAGE Boot project ADDED: SpringBootGeneralBeanCreation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.814
+!MESSAGE Boot project ADDED: SpringBootOneToMany
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.815
+!MESSAGE Boot project ADDED: SpringBootOneToOne
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.816
+!MESSAGE Boot project ADDED: SpringGeneralControllerCreate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.816
+!MESSAGE Boot project ADDED: SpringMaster5Project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.817
+!MESSAGE Boot project ADDED: springBootWithMongo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-04 04:15:50.850
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\9616k\Downloads\sts-4.24.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+C:\Users\9616k\Downloads\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\9616k\Downloads\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\9616k\Downloads\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/9616k/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1725403550849
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:15:50.851
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-04 04:15:50.864
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 9104
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 04:26:33.303
+!MESSAGE Classpath changed for project: SWIGGY_SDE_ROUND_1
+!SESSION 2024-09-04 14:57:41.507 -----------------------------------------------
+eclipse.buildId=4.24.0.202407191504
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-04 14:57:45.310
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-04 14:57:46.623
+!MESSAGE Logback config file: C:\Users\9616k\Documents\workspace-spring-tool-suite-4-4.24.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-09-04 14:57:47.091
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-04 14:57:47.091
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-09-04 14:57:47.705
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-09-04 14:57:47.705
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-04 14:57:52.231
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\9616k\Downloads\sts-4.24.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+C:\Users\9616k\Downloads\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\9616k\Downloads\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\9616k\Downloads\sts-4.24.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.56.0.202407191456\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/9616k/Documents/workspace-spring-tool-suite-4-4.24.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1725442072230
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:52.231
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-09-04 14:57:52.252
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 22428
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:54.097
+!MESSAGE Boot project ADDED: SpringBootCollegeStudentAssesment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:54.098
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:54.100
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:54.101
+!MESSAGE Boot project ADDED: SpringBootCustomerMySql
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:54.102
+!MESSAGE Boot project ADDED: SpringBootEmployeeMySql
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:54.104
+!MESSAGE Boot project ADDED: SpringBootGeneral
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:54.104
+!MESSAGE Boot project ADDED: SpringBootGeneralBeanCreation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:54.105
+!MESSAGE Boot project ADDED: SpringBootOneToMany
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:54.105
+!MESSAGE Boot project ADDED: SpringBootOneToOne
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:54.106
+!MESSAGE Boot project ADDED: SpringGeneralControllerCreate
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:54.107
+!MESSAGE Boot project ADDED: SpringMaster5Project
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-09-04 14:57:54.109
+!MESSAGE Boot project ADDED: springBootWithMongo
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-04 14:57:54.177
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\9616k'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-04 14:58:01.432
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-04 14:58:01.439
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-04 14:58:02.874
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-04 14:58:02.905
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-04 14:58:03.746
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-09-04 14:58:03.751
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

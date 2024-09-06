@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.main.repo.BankRepo"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="com.main.beans.Bank"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="com.manage.service.CollegeService"/>
     <fullyQualifiedTypeName name="com.manage.entity.College"/>
     <fullyQualifiedTypeName name="com.manage.entity.Student"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
 </qualifiedTypeNameHistroy>
